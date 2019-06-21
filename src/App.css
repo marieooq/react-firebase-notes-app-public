@@ -1,33 +1,70 @@
-.App {
-  text-align: center;
+html{
+  height: 100%;
+  font-size: 16px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100%;
+  min-height:100%;
+  /* background: 
+    linear-gradient(-45deg, rgba(0,0,0,0.3), rgba(0, 40, 105, 0.8)),
+    url('./Static/img/2.jpeg'); */
+  background-attachment: fixed;
+  background-size: cover; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+* {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.notesWrapper {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.notesHeader {
+  display: flex;
+  flex: 1 1 5%;
+  min-height: 2.5rem;
+  max-height: 2rem;
+  font-size: 2rem;
+  color: #4EB8BF;
+  align-content: center;
+  padding:30px 0px 60px 0px;
+  margin-bottom: 6px;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.notesHeader > .heading > img{
+  width: 40px;
+  height: 40px;
+  vertical-align: text-bottom;
+  margin-right: 0.5rem;
+}
+
+.notesBody {
+  padding-top: 24px;
+  display: flex;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.notesFooter {
+  width: 100%;
+  height: 150px;
+  /* display: flex;
+  flex: 1 1 5%; */
+  background:linear-gradient(#5ED5C2, #4EB8BF);
 }
