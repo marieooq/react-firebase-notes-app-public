@@ -1,6 +1,7 @@
     
 import React, { Component } from 'react';
 import './NoteForm.css';
+import add from '../Static/img/add_button.png';
 
 class NoteForm extends Component{
     constructor(props){
@@ -37,7 +38,7 @@ class NoteForm extends Component{
                 onChange={this.handleUserInput}
                 />
                 <button className="noteButton"
-                onClick={this.writeNote}>Add Note</button>
+                onClick={this.writeNote}><img src={add} alt="add" id="add" /></button>
             </div>
         )
     }
