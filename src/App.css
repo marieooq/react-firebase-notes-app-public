@@ -23,7 +23,7 @@ body {
 }
 
 .notesWrapper {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex: 1 1 auto;
@@ -32,15 +32,14 @@ body {
 }
 
 .notesHeader {
-  display: flex;
-  flex: 1 1 5%;
+  width: 70%;
   min-height: 2.5rem;
   max-height: 2rem;
   font-size: 2rem;
   color: #4EB8BF;
   align-content: center;
   padding:30px 0px 60px 0px;
-  margin-bottom: 6px;
+  margin: 0 auto;
   display: block;
 }
 
