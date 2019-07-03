@@ -1,6 +1,6 @@
 .formWrapper{
     width: 70%;
-    margin: 45px auto 0;
+    margin: 40px auto 35px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -8,6 +8,8 @@
 
 .noteButton{
     outline: none;
+    background-color: #C37244;
+    border-radius: 5px;
 }
 
 .noteButton img#add{
@@ -18,6 +20,7 @@
     transition: 0.2s ease-out;
     margin: 0;
     padding: 0;
+    /* border-radius: 3px; */
 }
 
 
