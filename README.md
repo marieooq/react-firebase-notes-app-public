@@ -1,4 +1,4 @@
-# React based To-Do List
+# 🗒 React based To-Do List
 
 ![react_to_do_img](https://marieotaki.com/static/media/react_note_demo.3abb604d.gif)
 
